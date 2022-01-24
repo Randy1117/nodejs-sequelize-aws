@@ -1,0 +1,37 @@
+{
+  "name": "Ferreteriaback",
+  "version": "1.0.20",
+  "description": "realvirtual backend api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server"
+  },
+  "author": "realvirtual team",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "acquire": "^0.4.0",
+    "aws-sdk": "^2.1048.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^5.0.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.1",
+    "https": "^1.0.0",
+    "linq": "^3.2.3",
+    "mongoose": "^6.0.8",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "requests": "^0.3.0",
+    "sequelize": "^5.22.4",
+    "xml2json": "^0.12.0"
+  },
+  "homepage": "https://realvirtual.com.mx"
+}
